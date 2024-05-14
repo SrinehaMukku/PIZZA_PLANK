@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Logo from "../assets/gamecard.png";
 import { Link } from "react-router-dom";
-import ReorderIcon from "@material-ui/icons";
+import { TfiAlignJustify } from "react-icons/tfi";
 import "../styles/Navbar.css";
 
 
@@ -28,7 +28,7 @@ function Navbar() {
         <Link to="/about"> About </Link>
         <Link to="/contact"> Contact </Link>
         <button onClick={toggleNavbar}>
-          <ReorderIcon />
+          <  TfiAlignJustify />
         </button>
       </div>
     </div>

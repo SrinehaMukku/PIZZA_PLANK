@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import BannerImage from "../assets/gamecard.png";
+import BannerImage from "../assets/gamecard2.jpg";
 import "../styles/Home.css";
 
 function Home() {
